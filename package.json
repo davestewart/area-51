@@ -1,0 +1,29 @@
+{
+  "name": "area-51",
+  "version": "1.0.0",
+  "description": "Area package example for Nuxt Areas",
+  "main": "src/area.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davestewart/area-51.git"
+  },
+  "keywords": [
+    "nuxt",
+    "areas",
+    "ssr",
+    "large",
+    "sites"
+  ],
+  "author": "Dave Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davestewart/area-51/issues"
+  },
+  "homepage": "https://github.com/davestewart/area-51#readme",
+  "peerDependencies": {
+    "nuxt-areas": "*"
+  }
+}
