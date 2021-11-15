@@ -2,7 +2,7 @@
   <section>
     <h3>Area 51</h3>
     <output>
-      <pre>node_modules/area-51/src/pages/index</pre>
+      <PageInfo />
     </output>
     <section>
       <h3>{{ greeting }}</h3>
