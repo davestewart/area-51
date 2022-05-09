@@ -23,11 +23,11 @@
 
 In addition to local folders, Areas lets you include external areas via path or NPM module.
 
-This is an installable demo module to show you how it works.
+**This is an installable demo module to show you how it works.**
 
 ## Usage
 
-In your Nuxt project, install Nuxt Areas and this demo area:
+In your Nuxt project, install Nuxt Areas and this package:
 
 ```bash
 npm i nuxt-areas davestewart/area-51
@@ -46,16 +46,19 @@ export default {
   areas: {
     external: [
       {
-        src: 'area-51',     // package name 
-        route: '/fifty-one' // route you want to view the pages on
+        src: 'area-51',         // package name 
+        route: '/fifty-one',    // route you want to view the pages on
+        namespace: 'fiftyOne'   // namespace the store will be registered on
       },
     ]
   }
 }
 ```
 
+Assuming you set up Nuxt Areas OK, everything should run.
+
 To view the installed area in your browser:
 
 - run the project via `npm run dev` 
-- navigate to `http://localhost:3000/fifty-one` (or equivilent)
+- navigate to `http://localhost:3000/fifty-one` (or equivalent)
 
