@@ -24,11 +24,11 @@ export default {
   },
 
   mounted () {
-    this.$store.commit('setSplash', require('../../docs/area-51.png'))
+    this.$store.dispatch('setSplash', require('../../docs/area-51.png'))
   },
 
   destroyed () {
-    this.$store.commit('setSplash')
+    this.$store.dispatch('setSplash')
   }
 }
 </script>

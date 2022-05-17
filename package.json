@@ -1,6 +1,6 @@
 {
   "name": "@davestewart/area-51",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Area package example for Nuxt Areas",
   "main": "src/area.js",
   "scripts": {
