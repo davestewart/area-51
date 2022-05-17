@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Area 51</h3>
-      <p>"External" area index located in node_modules</p>
+      <p>"External" index page located in node_modules</p>
     </header>
     <output>
       <PageInfo />
@@ -18,17 +18,17 @@
 export default {
   computed: {
     greeting () {
-      const { greeting, name } = this.$store.state.fiftyOne
+      const { greeting, name } = this.$store.state.external.fiftyOne
       return `${greeting}, ${name}! 👽`
     }
   },
 
   mounted () {
-    this.$store.dispatch('app/setSplash', require('../../docs/area-51.png'))
+    this.$store.commit('setSplash', require('../../docs/area-51.png'))
   },
 
   destroyed () {
-    this.$store.dispatch('app/setSplash')
+    this.$store.commit('setSplash')
   }
 }
 </script>
