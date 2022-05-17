@@ -1,10 +1,11 @@
 {
-  "name": "area-51",
+  "name": "@davestewart/area-51",
   "version": "1.0.0",
   "description": "Area package example for Nuxt Areas",
   "main": "src/area.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,7 @@
     "nuxt",
     "areas",
     "ssr",
+    "enterprise",
     "large",
     "sites"
   ],
